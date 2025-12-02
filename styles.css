@@ -1,0 +1,325 @@
+@charset "uft-8";
+@import url("https://www.dafont.com/nasalization.font");
+@import url("https://www.dafont.com/designer-2.font");
+@import url("https://www.dafont.com/garet.font");
+
+@font-face {
+  font-family: "Nasalization Rg";
+  src: url("fonts/Nasalization/Rg.otf");
+}
+
+@font-face {
+  font-family: "Designer";
+  src:url("fonts/Designer.otf")
+}
+
+@font-face {
+  font-family: "Garet-Book";
+  src: url("fonts/Garet-Book.otf");
+}
+
+@font-face {
+  font-family: "Garet-Heavy";
+  src: url("fonts/Garet-Heavy.otf");
+}
+body {
+  width: 1050px;
+  margin: 0 auto;
+  background: #c4aaae; 
+}
+link{
+  color: #9eb1ba;
+}
+header{
+  position: relative;
+  background-color: #3c3c40;
+  color: #ffffff;
+  height: 100px;
+  font-family: "Nasalization Rg";
+  font-size: large;
+  text-align: justify;
+}
+#titletext{
+  font-size: 20px;
+}
+#container1{
+  position: relative;
+  background:#eeeeee;
+  height: 3500px;
+}
+
+#container2{
+  background:#eeeeee;
+  height: 1320px;
+}
+
+#container3{
+  background:#eeeeee;
+  height: 700px;
+}
+
+#container4{
+  background:#eeeeee;
+  height: 500px;
+}
+
+span{
+  font-family: "Garet-Heavy";
+}
+ a{
+  color: #816668;
+ }
+
+footer {
+  position: relative;
+  background: #3c3c40;
+  height: 100px;
+  top: -15px;
+  color: #9c8285;
+  padding: 10px 10px;
+  font-family: "Garet-Book", Arial, Helvetica, sans-serif;
+}
+nav {
+    width: 542px;
+    position: relative;
+    float: right;
+    padding: -10px;
+    font-size: 100px;
+    font-weight:lighter;
+    top: -100px;
+    left: -20px;
+    font-family: "Garet-Book",Arial, Helvetica, sans-serif;
+    border-color: #0088cc;
+    border-radius: 10px;
+}
+
+nav ul{
+    padding-left: 0;
+}
+
+nav li{
+    display: inline-block;
+    margin: 15px;
+    position:relative;
+    border-style:inherit;
+}
+
+nav a:link{
+    padding: 3px 10px;
+    text-decoration: none;
+    color: #1d1d1f;
+    background-color: #fbeeff;
+    color: #9c8285;
+    border-color: #0088cc;
+    border-width: 10px;
+}
+
+nav a:hover{
+    border: 10px;
+    color: #0088cc;
+    text-decoration:solid underline;
+    background: #fbeeff;
+  }
+
+/*-------------------------------*/
+/* Page one /Home Page elements */
+/*-------------------------------*/
+
+#image1{
+  margin: 15px 0 15px 21px;
+  position: relative;
+  padding: 10px 250px;
+  left: -255px;
+  top: -80px;
+}
+#quotetext1{
+  position: relative;
+  top: -550px;
+  left: 300px;
+  padding: 1px 275px;
+  font-size: 35px;
+  font-display: block;
+  font-family: "Designer",Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#image2{
+  margin: 15px 0 15px 21px;
+  position: relative;
+  top: -315px;
+  left: 305px;
+  padding: 10px 210px;
+}
+#quotetext2{
+  position: relative;
+  top: -890px;
+  left: -250px;
+  padding: 10px 270px;
+  font-size: 30px;
+  font-display: block;
+  font-family: "Designer",Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#shortblurb{
+  position: relative;
+  background-color: #3c3c40;
+  display: block;
+  margin: 0 auto;
+  top: -650px;
+  font-family: "Garet-Book", Arial, Helvetica, sans-serif;
+}
+#image3{
+  position: relative;
+  display:block;
+  margin: 0 auto;
+  align-items: center;
+  left: 25px;
+  top: -10px;
+}
+#blurbtitle{
+  color: #d3dfe5;
+  font-size: large;
+  font-style: oblique;
+  margin: 10px;
+  padding: 10px 10px;
+  font-family: "Designer"
+}
+#blurb2{
+  margin: 10px;
+  position: relative;
+  padding: 10px 15px;
+  font-display: block;
+  color: #d3dfe5;
+  top: -19px;
+  font-size: 15px;
+}
+
+#image4{
+  position: relative;
+  display:block;
+  margin: 0 auto;
+  align-items: center;
+  left: 25px;
+  top: -60px;
+}
+#miniblurb{
+  position: relative;
+  background-color: #eeeeee;
+  display: block;
+  margin: 0 auto;
+  top: -660px;
+  padding-top: 20px;
+}
+#miniblurbtext{
+  position: relative;
+  font-size: large;
+  font-family: "Designer",Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-style: oblique;
+  margin: 10px;
+  padding: 10px 10px;
+  top: -45px;
+}
+
+#linkedtext{
+  margin: 10px;
+  position: relative;
+  padding: 10px 15px;
+  font-display: block;
+  top: -600px;
+}
+
+/*-------------------------------*/
+/* Page two/Features page elements*/
+/*-------------------------------*/
+
+#producttitle{
+  position: relative;
+  font-size: x-large;
+  background-color: #eeeeee;
+  padding: 15px;
+  font-family: "Designer",Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-style: oblique;
+}
+#productprice{
+  position: relative;
+  font-size: large;
+  background-color: #eeeeee;
+  padding: 15px;
+  top: -20px;
+  font-family: "Garet-Heavy",Arial, Helvetica, sans-serif;
+  font-weight: 100;
+}
+#productsamples{
+  background-color: #3c3c40;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 20px;
+  width: 400px;
+  left: 580px;
+  top:-525px;
+}
+
+#row{
+  justify-content: space-around;
+}
+
+#productincludes{
+  background-color: #3c3c40;
+  position: relative;
+  display: block;
+  padding: 20px;
+  top: 25px;
+  left: 25px;
+  width: 360px;
+  height: 200px;
+  color: #d3dfe5;
+  font-family: "Designer",Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h2{
+  font-size: xx-large;
+  align-content: center;
+  font-family: "Designer",Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+ul{
+  font-size: large;
+  align-content: center;
+  text-align: justify;
+  padding: 10px;
+  font-family: "Garet-Book" Arial, Helvetica, sans-serif;
+}
+
+#avaliblemodels{
+  background-color: #3c3c40;
+  position: relative;
+  display: block;
+  padding: 20px;
+  top: 60px;
+  left: 25px;
+  width: 360px;
+  height: 500px;
+  font-size: large;
+  color: #d3dfe5;
+}
+
+/*-------------------------------*/
+/*Page three*/
+/*-------------------------------*/
+fieldset{
+  border-color: #3c3c40;
+  border-width: 10px;
+  font-family: "Garet-Book",Arial, Helvetica, sans-serif;
+}
+#orderform{
+  padding: 20px;
+  font-family: "Garet-Book",Arial, Helvetica, sans-serif;
+}
+#options{
+  position:relative;
+  padding: 20px;
+  top: -35px;
+}
+/*-------------------------------*/
+/*THANK YOU*/
+/*-------------------------------*/
+#thankyou{
+  padding: 10px;
+}

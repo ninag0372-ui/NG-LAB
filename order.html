@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Order Form</title>
+        <link href = "styles.css" rel = "stylesheet" type = "text/css"/>
+	</head>
+	<body>
+        <div id = "container3">
+
+            <!-- //////Navigation\\\\\ -->
+
+            <header>
+                <h1><a target ="_blank" href ="index.html"><img src = "Images/Apple_logo_grey.png" alt = "logo image" width = "100"></a>
+                    IPad Pro</h1>
+                    <nav>
+                        <ul>
+                            <li><a href = "index.html" >Home Page</a></li>
+                            <li><a href = "features.html" >Product Features</a></li>
+                            <li><a href = "order.html" >Order form</a></li>
+                        </ul>
+                    </nav>
+            </header>
+
+            <!-- //////Customer info\\\\ -->
+            <form action = "thanks.html" method = "post">
+                <div id = "orderform">
+                    <p>
+                        <label>Name<input type = "text" name = "customer"></label>
+                        <label>Address<input type = "text" name = "address"></label>
+                    </p>
+                    
+                    <p>
+                        <label>Phone Number<input type = "text" name = "phone" required>*</label>
+                        <label>Email<input type = "text" name = "phone" required>*</label>
+                    </p>
+                    
+                    <p>
+                        <label>Pick up at store<input type = "radio" name = "recieve" value = "pickup" ></label>
+                        <label> Deliver to address<input type = "radio" name = "recieve" value = "deliver"></label>
+                    </p>
+                </div>
+
+                <!-- //////Model options\\\\ -->
+                
+                <div id = "options">
+                    <fieldset>
+                        <legend>
+                            <strong>
+                                Order the IPad pro today!!!
+                            </strong>
+                        </legend>
+                        <label>11-inch Model <input type = "radio" name = "model" value = "Medium"></label>
+                        <label>13-inch Model <input type = "radio" name = "model" value = "Large"></label><br>
+                        
+                        <label>Black Finish <input type = "radio" name = "finish" value = "Black"></label>
+                        <label>Silver Finish <input type = "radio" name = "finish" value = "Silver"></label>
+                        
+                        <p>
+                            
+                            <label>Pick the amount of storage you need:
+        
+                                <select name = "Storage">
+                                    <option value = "256 GB">200 GB</option>
+                                    <option value = "512 GB">512 GB</option>
+                                    <option value = "1 TB">1 TB</option>
+                                    <option value = "2 Tb">2 TB</option>
+                                </select>
+                            </label>
+                        </p>
+                        
+                        <p>
+                            <label>Include Wifi <input type = "radio" name = "service" value = "wifi"></label>
+                            <label>Include Wifi + Cellular Data <input type = "radio" name = "service" value = "Cellular Data"></label>
+                        </p>
+
+                        <!-- //////Extra information\\\\ -->
+                        
+                        <p>
+                            <label for = "instructions"> Extra Instructions (opitonal)</label>
+                        </p>
+                        
+                        <textarea rows = "5" cols = "30" name="input" id = "instructions"></textarea>
+                        
+                        <p>
+                            <input type="submit" value="Send Your Order">
+                        </p>
+                    
+                    </fieldset>
+                </div>
+            </form>
+        </div>
+
+        <!-- //////Footer\\\\\ -->
+
+    <footer>
+        <p>Click here <a target="_blank" rel="noopener noreferrer" href="https://www.apple.com/ca/ipad-pro/">to visit the official Apple Website and learn more</a></p>
+    </footer>
+	</body>
+</html>
