@@ -1,0 +1,117 @@
+/*CSS Document*/
+
+/*fonts*/
+
+/*Defaults*/
+
+html{
+    font-family: sans-serif;
+    font-size: 1.3rem;
+}
+
+body{
+    margin: 0;
+
+}
+
+a {
+    text-decoration: none;
+    color: rgb(242, 220, 75);
+}
+
+/*Structure*/
+
+/*header*/
+header{
+    height: 60vh;
+    background-image: url(../img/header-bg.png);
+    background-size: 100% 110%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header h1{
+    margin-top: 0;
+}
+
+.myname{
+    font-size: 12vh;
+    color: aliceblue;
+    text-shadow: 5px 5px 5px black;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.myname h1{
+    position: relative;
+    top: 10vh;
+}
+
+.myname h2{
+    position: relative;
+    font-size: 12vh;
+    bottom: 10vh;
+}
+
+nav{
+    position: sticky;
+    height: 80px;
+    background-color: rgb(44, 44, 44);
+    top: 0;
+    z-index: 9999;
+}
+
+nav ol{
+    margin: 0;
+    padding: 0;
+}
+
+nav ol li{
+    display: inline-block;
+    margin: 20px 0 0 20px;
+}
+
+nav ol li a{
+    font-size: 1.4em;
+}
+
+/*main*/
+main{
+    width: 75%;
+    margin: auto;
+    padding: 10px;
+    border-left: 3px solid #a59afe4d;
+    border-right: 3px solid #a59afe4d;
+}
+
+.main-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px 300px;
+
+}
+
+.main-grid div{
+    background-color: blanchedalmond;
+    margin: 10px;
+}
+
+.main-grid div:nth-child(1){
+
+    background-image: url(../img/2\ years.png);
+    background-size: 110% 100%;
+    background-repeat: no-repeat;
+}
+
+footer{
+    height: 300px;
+    background-color: #222;
+    color: white;
+    display: flex;
+}
+.footer div{
+    height: 90%;
+    flex: 1;
+    background-color: #393939;
+    margin: 10px;
+}
